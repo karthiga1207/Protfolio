@@ -1,0 +1,103 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF6F2;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.logo {
+    font-size: 30px;
+    color: #d47c90;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #d47c90;
+}
+
+/* Education Section */
+.education {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+/* Title */
+.title {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.title span {
+    color: #d47c90;
+}
+
+/* Cards */
+.education-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.edu-box {
+    width: 320px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+.edu-box:hover {
+    transform: translateY(-10px);
+}
+
+.edu-box h2 {
+    color: #d47c90;
+    margin-bottom: 10px;
+}
+
+.edu-box h3 {
+    color: #555;
+}
+
+.edu-box p {
+    margin-top: 15px;
+    line-height: 1.8;
+    color: gray;
+}
+
+.edu-box h4 {
+    margin-top: 15px;
+}
